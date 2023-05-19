@@ -14,7 +14,7 @@ const Product = (props: ProductProps) => {
 
 
   return (
-    <div className='border py-2 px-2 rounded flex mb-3  items-start gap-12 min-h-[300px]'>
+    <div className='border py-2 px-2 rounded flex flex-col lg:flex-row mb-3  items-start gap-12 min-h-[300px]'>
       <div className='h-[200px] w-[200px]'>
         <img src={image} alt={title} className='w-full h-full object-contain' />
       </div>
